@@ -6,3 +6,5 @@ weight = 84
 bmi = weight / height ** 2
 
 print(bmi)
+
+print(round(bmi, 2))

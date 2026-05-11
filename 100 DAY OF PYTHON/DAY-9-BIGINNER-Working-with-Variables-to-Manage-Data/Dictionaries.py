@@ -22,3 +22,25 @@ print(programming_dictionary)
 for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
+
+#Nested lists in Dictionary
+
+# travel_log = {
+#     "France": ["Paris", "lille", "Dijon"],
+#     "Germany": ["Stuttgart" , "Berlin"]
+# }
+
+# print(travel_log["France"][0])
+
+travel_log = {
+    "France": {
+        "cities_visited": ["Paris", "lille", "Dijon" ],
+        "total_visits": 12
+    },
+    "Germany":{
+        "cities_visited": ["Stuttgart" , "Berlin"],
+        "total_visits": 12
+    },
+}
+
+print(travel_log["Germany"]["cities_visited"][1])

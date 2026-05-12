@@ -19,3 +19,16 @@ def drink_potion():
 
 drink_potion()
 player_health
+
+
+# Modifying Gobal Scope
+
+enemie = 1
+
+def increase_enemie():
+    global enemie
+    enemie += 2
+    print(f"enime inside function: {enemie}")
+
+increase_enemies()
+print(f"enemies outside function: {enemie}")

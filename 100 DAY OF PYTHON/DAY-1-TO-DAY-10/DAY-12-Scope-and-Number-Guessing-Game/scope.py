@@ -21,7 +21,7 @@ drink_potion()
 player_health
 
 
-# Modifying Gobal Scope
+# Modifying Global Scope
 
 enemie = 1
 
